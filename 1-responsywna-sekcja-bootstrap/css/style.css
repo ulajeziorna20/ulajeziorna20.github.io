@@ -1,0 +1,42 @@
+.main-box {
+    width: 700px;
+}
+
+
+.skills {
+    border-bottom: rgb(160, 160, 160);
+    border-width: 80px;
+}
+
+
+hr {
+    width: 200px;
+}
+
+
+
+
+
+
+
+.circle-outer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: rgb(202, 202, 202);
+
+}
+
+
+#img {
+
+    width: 50px;
+    height: 50px;
+}
+
+
+.skill-1 {
+    display: block;
+
+}
+

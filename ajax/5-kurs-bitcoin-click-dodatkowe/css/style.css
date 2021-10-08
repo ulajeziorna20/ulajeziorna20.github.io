@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+
+
+
+#get-exchange-bitcoin {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    
+}
+
+#container {
+    
+    
+    /* position: relative; */
+}
+
+
+
+
+#text1 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+#images {
+    display: flex;
+    
+}
+
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    display: none;
+    margin-left: -30px;
+}
+
+
+#arrowUp {
+
+    background-color: green;
+
+}
+
+
+
+#arrowSame {
+    background-color: blue;
+
+}
+
+
+
+
+#arrowDown {
+
+    background-color: red;
+}
+
+.display-block {
+    display: block;
+}

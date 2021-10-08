@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(216, 246, 232);
+ }
+ 
+ 
+ 
+ #pracownicy {
+     border: 2px solid grey;
+     
+ }
+ 
+ 
+ h2 {
+     border: 1px solid grey;
+     margin: 5px;
+     padding: 15px;
+ }
+ 
+ 
+ input {
+     border-bottom: 1px solid rgb(12, 9, 9);
+     margin: 5px;
+     width: 60px;
+ }
+ 
+ span.wyplata {
+     border: 3px double darkslategrey;
+     padding: 2px 15px;
+ }
+ 
+ span.pracownik {
+     border-bottom: 1px solid rgb(77, 74, 74);
+     padding-bottom: 3px;
+ }
+ 
+ 
+ #oblicz {
+     color: rgb(24, 82, 82);
+     font-size: 1em;
+     font-weight: bold;
+     margin-top: 20px;
+     background-color: gainsboro;
+     border: 1px solid rgb(20, 91, 104);
+ }
+ 
+ #oblicz:hover {
+     background-color: rgb(26, 69, 80);
+     color: rgb(255, 255, 255);
+ }
+ 
+ 
+ 

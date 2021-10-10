@@ -7625,7 +7625,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #f0f4dc;
   border-color: #e7e7e7;
 }
 
@@ -10696,14 +10696,6 @@ blackquote cite:before {
   content: "- ";
 }
 
-#about,
-#services,
-#counters-progress,
-#team,
-#counters-numbers {
-  width: 150px;
-}
-
 /***/
 /*==========  3.3 - IE 8 styles  ==========*/
 /*-----  End of 3.0 - Base styles  ------*/
@@ -10966,7 +10958,7 @@ h1, h2, h3, h4 {
 
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: #ffffff;
+    background-color: #f0f4dc;
     top: 32px;
   }
   .navbar-default .navbar-header .navbar-brand {

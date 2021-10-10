@@ -11828,42 +11828,52 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   }
 }
 
-.t108-one-page #counters-numbers, .t108-one-page #counters-progress {
+.t108-one-page #counters-numbers,
+.t108-one-page #counters-progress {
   height: auto;
   width: 100%;
   position: relative;
   padding: 96px 0;
 }
 
-.t108-one-page #counters-numbers .container, .t108-one-page #counters-progress .container {
+.t108-one-page #counters-numbers .container,
+.t108-one-page #counters-progress .container {
   position: relative;
   z-index: 11;
 }
 
-.t108-one-page #counters-numbers .container p, .t108-one-page #counters-numbers .container h4, .t108-one-page #counters-progress .container p, .t108-one-page #counters-progress .container h4 {
+.t108-one-page #counters-numbers .container p,
+.t108-one-page #counters-numbers .container h4,
+.t108-one-page #counters-progress .container p,
+.t108-one-page #counters-progress .container h4 {
   color: #ffffff;
 }
 
-.t108-one-page #counters-numbers .container .counters-box, .t108-one-page #counters-progress .container .counters-box {
+.t108-one-page #counters-numbers .container .counters-box,
+.t108-one-page #counters-progress .container .counters-box {
   margin: 72px auto 0;
 }
 
-.t108-one-page #counters-numbers .container .counters-box h1, .t108-one-page #counters-progress .container .counters-box h1 {
+.t108-one-page #counters-numbers .container .counters-box h1,
+.t108-one-page #counters-progress .container .counters-box h1 {
   font-size: 58px;
   color: #ffffff;
 }
 
-.t108-one-page #counters-numbers .container .counters-box h6, .t108-one-page #counters-progress .container .counters-box h6 {
+.t108-one-page #counters-numbers .container .counters-box h6,
+.t108-one-page #counters-progress .container .counters-box h6 {
   color: #ffffff;
 }
 
-.t108-one-page #counters-numbers .container .counters-box p, .t108-one-page #counters-progress .container .counters-box p {
+.t108-one-page #counters-numbers .container .counters-box p,
+.t108-one-page #counters-progress .container .counters-box p {
   margin-bottom: 0;
   color: #ffffff;
   margin: 24px auto;
 }
 
-.t108-one-page #counters-numbers .container .counters-box .text-primary, .t108-one-page #counters-progress .container .counters-box .text-primary {
+.t108-one-page #counters-numbers .container .counters-box .text-primary,
+.t108-one-page #counters-progress .container .counters-box .text-primary {
   color: #a5e200;
 }
 
@@ -11926,7 +11936,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   height: 100%;
   opacity: 0;
   background: rgba(34, 34, 34, 0.8);
-  -webkit-transition: all .35s;
+  -webkit-transition: all 0.35s;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -11965,6 +11975,15 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
+}
+
+.t108-one-page #counters-services .icon-services:hover {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 
 .t108-one-page #counters-services .counters-box {
@@ -12042,11 +12061,13 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   outline: 0;
   color: #ffffff;
   background-color: #dddddd;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.t108-one-page #team .container ul.social-buttons li a:hover, .t108-one-page #team .container ul.social-buttons li a:focus, .t108-one-page #team .container ul.social-buttons li a:active {
+.t108-one-page #team .container ul.social-buttons li a:hover,
+.t108-one-page #team .container ul.social-buttons li a:focus,
+.t108-one-page #team .container ul.social-buttons li a:active {
   background-color: #2eb6d1;
 }
 

@@ -2,14 +2,13 @@
 /*==========  6.3 - One Page styles  ==========*/
 
 .t108-one-page {
-
     hr {
         margin-bottom: auto;
     }
 
     #about {
         margin-top: $baseline * 4;
-		padding: ($baseline * 4) $padding-none;
+        padding: ($baseline * 4) $padding-none;
 
         .about-box {
             margin: ($baseline * 3) auto $margin-none;
@@ -31,26 +30,27 @@
                 align-items: center;
             }
         }
-	}
+    }
 
-    @media(max-width: 768px) {
-
+    @media (max-width: 768px) {
         #about {
             margin-top: $baseline * 2.5;
         }
     }
 
-    #counters-numbers, #counters-progress { 
-        height: auto;  
-        width: 100%; 
-        position: relative; 
+    #counters-numbers,
+    #counters-progress {
+        height: auto;
+        width: 100%;
+        position: relative;
         padding: ($baseline * 4) $padding-none;
 
         .container {
             position: relative;
             z-index: 11;
 
-            p, h4 {
+            p,
+            h4 {
                 color: $color-text-primary;
             }
 
@@ -78,8 +78,8 @@
             }
         }
     }
-    
-    #counters-numbers { 
+
+    #counters-numbers {
         background: url(../images/counters/counters_numbers.jpg) no-repeat 50% 0 fixed;
         -webkit-background-size: 100% 300%;
         -moz-background-size: 100% 300%;
@@ -87,7 +87,7 @@
         background-size: 100% 300%;
     }
 
-    #counters-progress { 
+    #counters-progress {
         background: url(../images/counters/counters_progres.jpg) 50% 0 fixed;
         color: $color-text-primary;
 
@@ -101,19 +101,19 @@
         }
     }
 
-	#portfolio {
-		padding: $padding-none;
+    #portfolio {
+        padding: $padding-none;
         text-transform: $text-transform-base;
 
-		.col-lg-3 {
+        .col-lg-3 {
             padding-left: $padding-none;
-			padding-right: $padding-none;
-		}
+            padding-right: $padding-none;
+        }
 
-		.col-sm-6 {
-			padding-left: $padding-none;
-			padding-right: $padding-none;
-		}
+        .col-sm-6 {
+            padding-left: $padding-none;
+            padding-right: $padding-none;
+        }
 
         .col-md-3 {
             padding-left: $padding-none;
@@ -131,17 +131,16 @@
             margin: $margin-none auto;
             max-width: $width-max-img-portfolio;
 
-
             .portfolio-box-caption {
                 display: block;
                 position: absolute;
                 bottom: 0;
                 width: 100%;
-                height:100%;
+                height: 100%;
                 opacity: 0;
                 background: $color-portfolio-hover;
-                -webkit-transition: all .35s;
-                -moz-transition: all .35s;
+                -webkit-transition: all 0.35s;
+                -moz-transition: all 0.35s;
                 transition: all 1s;
 
                 .portfolio-box-caption-content {
@@ -153,13 +152,12 @@
                     .project-category h4 {
                         color: $color-text-primary;
                         padding: $padding-none 15px;
-
                     }
 
                     .project-name h6 {
                         color: $color-primary;
                         padding: $padding-none 15px;
-                    } 
+                    }
                 }
             }
         }
@@ -170,8 +168,8 @@
     }
 
     #counters-services {
-    background-color: $color-background;
-    padding: ($baseline * 4) $padding-none $baseline;
+        background-color: $color-background;
+        padding: ($baseline * 4) $padding-none $baseline;
 
         .icon-services {
             color: $color-primary;
@@ -182,6 +180,12 @@
             border: 2px solid $color-primary;
         }
 
+        .icon-services:hover {
+            transform: rotate(20deg);
+            animation-duration: 0.5s;
+            animation-timing-function: linear;
+            // color: red;
+        }
 
         .counters-box {
             margin: $margin-none auto ($baseline * 3);
@@ -199,10 +203,8 @@
         }
     }
 
-    @media(max-width: 768px) {
-        
+    @media (max-width: 768px) {
         #counters-services {
-
             .counters-box {
                 text-align: center;
 
@@ -233,7 +235,7 @@
                     h5:hover {
                         color: $color-primary;
                     }
-                } 
+                }
             }
         }
     }
@@ -248,7 +250,7 @@
                 margin-left: auto;
                 margin-right: auto;
             }
-        
+
             ul.social-buttons {
                 margin: ($baseline * 2) auto ($baseline * 3);
 
@@ -261,18 +263,19 @@
                     outline: 0;
                     color: $color-bg-main;
                     background-color: $color-border;
-                    -webkit-transition: all .3s;
-                    -moz-transition: all .3s;
-                    transition: all .3s;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    transition: all 0.3s;
                 }
 
-                li a:hover, li a:focus, li a:active {
+                li a:hover,
+                li a:focus,
+                li a:active {
                     background-color: $color-link;
                 }
             }
 
-            @media(max-width: 768px) {
-
+            @media (max-width: 768px) {
                 ul.social-buttons {
                     margin-top: $baseline;
                 }

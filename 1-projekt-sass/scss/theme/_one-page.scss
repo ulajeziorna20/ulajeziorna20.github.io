@@ -188,9 +188,10 @@
             }
 
             .divider-light-dark {
-                width: $baseline * 2;
+                width: $baseline + 1;
                 margin-left: $padding-none;
                 margin-bottom: 20px;
+                opacity: 50%;
             }
         }
     }

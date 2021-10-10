@@ -879,6 +879,14 @@
   content: "\f099";
 }
 
+.fa-twitter:before,
+.fa-facebook:before,
+.fa-google-plus:before,
+.fa-linkedin:before,
+.fa-chevron-up:before {
+  font-size: 25px;
+}
+
 .fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
@@ -11495,7 +11503,7 @@ h1, h2, h3, h4 {
 }
 
 .t108-footer .footer-above {
-  padding-top: 48px;
+  padding-top: 80px;
 }
 
 .t108-footer .footer-above .margin-none p {

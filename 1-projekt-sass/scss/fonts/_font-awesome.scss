@@ -617,6 +617,20 @@
 .fa-twitter:before {
   content: "\f099";
 }
+
+
+.fa-twitter:before,
+.fa-facebook:before,
+.fa-google-plus:before,
+.fa-linkedin:before,
+.fa-chevron-up:before {
+  font-size: 25px;
+}
+
+
+
+
+
 .fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
@@ -756,6 +770,7 @@
 }
 .fa-google-plus:before {
   content: "\f0d5";
+  
 }
 .fa-money:before {
   content: "\f0d6";

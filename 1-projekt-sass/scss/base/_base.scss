@@ -5,7 +5,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-size: $base-font-size;
 	color: $color-text;
-	font-family: $font-primary;
+	font-family: $font-fourth-text;
 
 	a, input, p {
 		font-family: $font-primary;
@@ -14,9 +14,10 @@ body {
 	h1, h2, h3, h4, h5, h6 {
 		text-transform: $text-transform-base;
 		color: $color-headings;
-		font-family: $font-secondary;
+		font-family: $font-third;
 		margin-bottom: $baseline;
 		margin-top: $baseline;
+
 	}
 
 	h1 {
@@ -33,6 +34,7 @@ body {
 
 	h4 {
 		font-size: $base-font-size + 9;
+		font-weight: bold;
 	}
 
 	h5 {

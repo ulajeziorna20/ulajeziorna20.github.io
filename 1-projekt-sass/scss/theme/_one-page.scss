@@ -20,12 +20,15 @@
 
             .icon-about {
                 color: $color-text-primary;
-                width: $base-font-size * 4.5;
-                height: $base-font-size * 4.5;
+                width: $base-font-size * 4;
+                height: $base-font-size * 4;
                 border-radius: 100%;
                 line-height: $base-font-size * 4.5;
                 background-color: $color-primary;
                 margin: $margin-none auto $baseline;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
 	}

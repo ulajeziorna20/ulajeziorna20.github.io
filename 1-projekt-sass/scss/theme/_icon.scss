@@ -23,10 +23,8 @@
 	        border-radius: 100%;
 	        line-height: $base-font-size * 4.5;
 	        color: $color-text-primary;
-	        margin: auto;
-			display: flex;
-			align-items: center;
-			justify-content: center;
+	        margin: ($baseline * 2) auto $baseline;
+			
 	    }
 
 
